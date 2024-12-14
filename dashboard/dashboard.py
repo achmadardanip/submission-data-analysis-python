@@ -16,8 +16,8 @@ st.write("""
 # Load Data
 @st.cache
 def load_data():
-    hour_data = pd.read_csv("dashboard/cleaned_bikeshare_hour.csv")
-    day_data = pd.read_csv("dashboard/cleaned_bikeshare_day.csv")
+    hour_data = pd.read_csv("/workspaces/submission-data-analysis-python/dashboard/cleaned_bikeshare_hour.csv")
+    day_data = pd.read_csv("/workspaces/submission-data-analysis-python/dashboard/cleaned_bikeshare_day.csv")
     return hour_data, day_data
 
 hour_data, day_data = load_data()
