@@ -27,3 +27,17 @@ The repository contains the following folder structure:
 - `README.md`: This file, containing information about the project.
 - `requirements.txt`: Lists the dependencies required for the project.
 - `url.txt`: Stores URLs related to the project.
+
+## Running the Dashboard
+
+To run the dashboard, follow these steps:
+
+1. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Run the dashboard using Streamlit:
+   ```
+   streamlit run dashboard/dashboard.py
+   ```
